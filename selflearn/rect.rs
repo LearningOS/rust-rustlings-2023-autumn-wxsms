@@ -42,5 +42,7 @@ fn main() {
     println!("r2 can hold r1: {}", r2.can_hold(&r));
 
     let r3 = Rect::square(100);
+
     dbg!(&r3);
+    dbg!(r3.width);
 }
